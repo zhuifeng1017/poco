@@ -9,3 +9,8 @@ http://nvie.com/posts/a-successful-git-branching-model/
 
 All text file line endings in the repository must be Unix-style (LF).
 This includes Visual Studio project and solution files (.sln, .vcproj, .vcxproj, .vcxproj.filters).
+
+
+How to build iPhone library:
+./configure --config=iPhone --prefix=/libs/pocos --static --notests --nosamples
+＃./configure --config=iPhoneSimulator --prefix=/libs/pocos --static --notests --nosamples
