@@ -46,13 +46,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	if (argc >= 2)
 	{
 		cout << "begin recv data" << endl;
-		CSendRecvFile::recvFile(sk);
+		CSendRecvFile::RecvFile(sk);
 	}else
 	{
 		cout << "begin send data" << endl;
-		//const char *filePath = "D:\\汶川地区.mimg";
-		const char *filePath = "e:\\20130917085141.bmp";
-		CSendRecvFile::sendFile(sk, filePath);
+		const char *filePath = "D:\\汶川地区.mimg";
+		//const char *filePath = "e:\\20130917085141.bmp";
+		CSendRecvFile::SendFile(sk, filePath);
 	}
 
 	sk.close();
