@@ -197,6 +197,22 @@
 				RelativePath="..\..\..\PocoTest\test\CSimpleSocket.h"
 				>
 			</File>
+			<File
+				RelativePath="..\..\..\PocoTest\test\SendRecvFile.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\PocoTest\test\SendRecvFile.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\PocoTest\test\Socks5Client.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\PocoTest\test\Socks5Client.h"
+				>
+			</File>
 		</Filter>
 	</Files>
 	<Globals>

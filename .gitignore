@@ -110,3 +110,7 @@ cmake-build/
 # Temporary files #
 ###################
 *.bak
+
+/Net/PocoNetTest/Debug
+
+/Net/PocoNetTest/PocoNetTest.sln
